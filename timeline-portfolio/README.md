@@ -1,3 +1,6 @@
+> This project was created as part of my developer portfolio to demonstrate code structure, reusability, and clean state management in React.
+
+
 # Interactive Timeline Component
 
 This project demonstrates a reusable and well-structured React component built with Vite.
@@ -34,3 +37,11 @@ src/
 - Add accessibility improvements
 - Convert to TypeScript
 - Add unit tests
+
+
+## How to Run
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open the local development server
