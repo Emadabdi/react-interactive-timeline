@@ -5,6 +5,9 @@ import "./timeline.css";
 
 function Timeline() {
   const [activeStep, setActiveStep] = useState(null);
+  const handleStepClick = (id) => {
+  setActiveStep((prev) => (prev === id ? null : id));
+};
 
   return (
     <div className="timeline">
@@ -13,7 +16,7 @@ function Timeline() {
           key={step.id}
           step={step}
           isActive={activeStep === step.id}
-          onClick={() => setActiveStep(step.id)}
+          onClick={() => handleStepClick(step.id)}
 
         />
       ))}
